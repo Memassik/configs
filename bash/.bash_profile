@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+exec ssh-agent bash
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
 fi
