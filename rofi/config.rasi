@@ -6,6 +6,7 @@ configuration
     show-icons: true;
     color-enabled: true;
     hide-scrollbar: true;
-    font: "IosevkaTerm NFM 13";
+	icon-theme: "Papirus Dark";
+    font: "IosevkaTerm NF 13";
 }
 @theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
