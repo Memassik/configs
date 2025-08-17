@@ -27,6 +27,11 @@ font pango:Iosevka NFM 13
 exec_always --no-startup-id picom -b
 # Run dunst notofications
 exec_always --no-startup-id dunst &
+# Run feh for wallpapers
+exec_always --no-startup-id feh --bg-fill \
+/home/memassik/Pictures/Wallpapers/flowers-2.jpg \
+--bg-fill /home/memassik/Pictures/Wallpapers/flowers-2.jpg \
+--no-fehbg
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
