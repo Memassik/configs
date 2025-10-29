@@ -1,9 +1,9 @@
 [global]
     width = 400
-    offset = 5x5
+    offset = 10x60
     progress_bar_min_width = 380
     progress_bar_max_width = 380
-    progress_bar_corner_radius = 2
+    progress_bar_corner_radius = 12
     padding = 10
     horizontal_padding = 10
     frame_width = 1
@@ -12,7 +12,7 @@
 
     icon_theme = "Papirus-Dark"
     enable_recursive_icon_lookup = true
-    corner_radius = 2
+    corner_radius = 12
 
     background = "#282828"
     foreground = "#ebdbb2"
