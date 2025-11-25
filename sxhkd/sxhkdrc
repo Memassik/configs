@@ -11,6 +11,14 @@ XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 XF86AudioMicMute 
 	pactl set-source-mute @DEFAULT_SOURCE@ toggle
+XF86AudioPrev
+    playerctl previous
+XF86AudioStop 
+    playerctl stop
+XF86AudioPlay 
+    playerctl play-pause
+XF86AudioNext 
+    playerctl next
 
 # Screenshots
 # {select,window,whole} + {image, clipboard} + Print
