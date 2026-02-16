@@ -1,0 +1,14 @@
+<!DOCTYPE patchbay>
+<patchbay name="XLRMic" version="0.9.8">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="EDIROL UA-25EX (Advanced mode) Analog Stereo" port="UA-25EX:capture_FL"/>
+   <input node="passthrough" port="passthrough:input_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="EDIROL UA-25EX (Advanced mode) Analog Stereo" port="UA-25EX:capture_FL"/>
+   <input node="passthrough" port="passthrough:input_FR"/>
+  </item>
+ </items>
+</patchbay>
+
