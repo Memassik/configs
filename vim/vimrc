@@ -1,0 +1,42 @@
+" ===== General =====
+set nocompatible              " Use Vim defaults, not Vi
+syntax on                     " Enable syntax highlighting
+filetype plugin indent on
+set number                    " Show line numbers
+set relativenumber            " Relative line numbers for fast movement
+set showcmd                   " Show command in bottom bar
+set wildmenu                  " Better command-line completion
+
+" ===== Indentation =====
+set tabstop=4                 " Tab = 4 spaces
+set shiftwidth=4              " Indent = 4 spaces
+set expandtab                 " Use spaces instead of tabs
+set smartindent               " Smart auto-indenting
+
+" ===== Search =====
+set ignorecase                " Case-insensitive search...
+set smartcase                 " ...unless uppercase used
+set incsearch                 " Show matches while typing
+set hlsearch                  " Highlight matches
+
+" ===== Clipboard =====
+set clipboard=unnamedplus     " Use system clipboard
+
+" ===== UI =====
+set termguicolors             " Enable true colors (if supported)
+set scrolloff=8               " Keep 8 lines above/below cursor
+set signcolumn=yes            " Prevent text shifting
+set background=dark
+colorscheme retrobox
+
+" ===== Performance =====
+set updatetime=300            " Faster completion
+set timeoutlen=500            " Faster mapped sequence timeout
+
+" ===== Key mappings =====
+let mapleader = " "           " Leader key = space
+
+" ===== Quality of life =====
+set nowrap                    " Don't wrap long lines
+set hidden                    " Allow switching buffers without saving
+set backspace=indent,eol,start

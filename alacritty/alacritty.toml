@@ -47,7 +47,7 @@ white   = '#ebdbb2'
 TERM = "xterm-256color"
 
 [font]
-size = 17.0
+size = 15.0
 
 normal.family = "IosevkaTerm NFM"
 bold.family = "IosevkaTerm NFM"

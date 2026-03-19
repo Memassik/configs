@@ -12,6 +12,7 @@
 !sxhkd
 !tmux
 !zathura
+!vim
 !.gitmodules
 
 !alacritty/**
@@ -26,5 +27,6 @@
 !sxhkd/**
 !tmux/tmux.conf
 !zathura/**
+!vim/**
 
 !.gitignore
