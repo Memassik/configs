@@ -1,4 +1,5 @@
 [global]
+    monitor = "HDMI-0"
     width = 400
     offset = 10x60
     progress_bar_min_width = 380
@@ -8,7 +9,7 @@
     horizontal_padding = 10
     frame_width = 1
     gap_size = 3
-    font = "Iosevka NF 14"
+    font = "Iosevka NFM 14"
 
     icon_theme = "Papirus-Dark"
     enable_recursive_icon_lookup = true
