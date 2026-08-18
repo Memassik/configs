@@ -1,5 +1,6 @@
 *
 
+!.gitmodules
 !alacritty
 !bash
 !bspwm
@@ -9,11 +10,11 @@
 !polybar
 !qpwgraph
 !rofi
+!suckless
 !sxhkd
 !tmux
-!zathura
 !vim
-!.gitmodules
+!zathura
 
 !alacritty/**
 !bash/**
@@ -24,9 +25,10 @@
 !polybar/**
 !qpwgraph/**
 !rofi/**
+!suckless/**
 !sxhkd/**
 !tmux/tmux.conf
-!zathura/**
 !vim/**
+!zathura/**
 
 !.gitignore
